@@ -10,7 +10,7 @@ services:
      - "4001:5000"
     environment:
       - PORT=5000
-      - DATABASE_URL=postgresql://sumedh_user:zUw2dT8OpW0ylhVPr91ck2RmUCWItug6@dpg-cr5d52d2ng1s73ed33i0-a.oregon-postgres.render.com/sumedh
+      - DATABASE_URL=postgresql://sumedh_yihc_user:0USewE9IXa3NMXCQpwqn0U0feEXeHiLn@dpg-cr7gk7rqf0us73bfbkag-a.oregon-postgres.render.com/sumedh_yihc
     restart: "no"
 
   inventory_management:
@@ -23,5 +23,5 @@ services:
      - "4002:5001"
     environment:
       - PORT=5001
-      - DATABASE_URL=postgresql://sumedh_user:zUw2dT8OpW0ylhVPr91ck2RmUCWItug6@dpg-cr5d52d2ng1s73ed33i0-a.oregon-postgres.render.com/sumedh
+      - DATABASE_URL=postgresql://sumedh_yihc_user:0USewE9IXa3NMXCQpwqn0U0feEXeHiLn@dpg-cr7gk7rqf0us73bfbkag-a.oregon-postgres.render.com/sumedh_yihc
     restart: "no"
